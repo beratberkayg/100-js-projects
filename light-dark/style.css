@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  transition: 1.5s;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.fa-solid {
+  font-size: 100px;
+  cursor: pointer;
+}
