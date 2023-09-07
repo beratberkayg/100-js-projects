@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#canvas {
+  background: #111;
+  z-index: -1;
+}
+
+h1 {
+  background: transparent;
+  position: absolute;
+  z-index: 1;
+  color: green;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+}
