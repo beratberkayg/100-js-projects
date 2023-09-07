@@ -55,3 +55,7 @@ section img {
   font-size: 10em;
   z-index: 1;
 }
+
+#road {
+  z-index: 2;
+}
