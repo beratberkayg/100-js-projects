@@ -15,7 +15,13 @@
       <form action="">
         <h1>Login</h1>
         <div class="input-box">
-          <input type="text" id="email" placeholder="Email" required />
+          <input
+            type="text"
+            id="email"
+            placeholder="Email"
+            required
+            onkeydown="validition()"
+          />
 
           <i id="user" class="fa-solid fa-user"></i>
         </div>
@@ -26,7 +32,9 @@
             placeholder="Password"
             required
           />
-          <a onclick="flock()"><i id="lock" class="fa-solid fa-lock"></i></a>
+          <a id="a" onclick="flock()"
+            ><i id="lock" class="fa-solid fa-lock"></i
+          ></a>
         </div>
 
         <div class="remember-forgot">

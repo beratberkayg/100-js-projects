@@ -1,8 +1,21 @@
+const email = document.getElementById("email");
+const user = document.getElementById("user");
+
 const lock = document.getElementById("lock");
 const password = document.getElementById("password");
 const a = document.getElementById("a");
 
+email.addEventListener("keydown", validition);
 a.addEventListener("click", flock);
+
+function validition() {
+  const pattern = /^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/;
+  if (email.value.match(pattern)) {
+    user.style.color = "green";
+  } else {
+    user.style.color = "red";
+  }
+}
 
 function flock() {
   if (password.type == "password") {
