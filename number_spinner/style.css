@@ -80,3 +80,7 @@ body {
   font-size: 24px;
   user-select: none;
 }
+
+#box span:nth-child(1) {
+  display: initial;
+}
