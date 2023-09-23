@@ -17,13 +17,19 @@ div {
 }
 
 #rangeValue {
-  position: relative;
+  position: absolute;
+  top: 50%;
   display: block;
   font-size: 6em;
   color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
 }
 
 #rangeValue::after {
+  content: "%";
+}
+
+#fillRangeValue {
   position: fixed;
   top: 0;
   left: 0;
@@ -31,4 +37,15 @@ div {
   height: 100%;
   background: #00adff;
   z-index: 1;
+}
+
+.range {
+  position: relative;
+  width: 400px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  outline: none;
+  border-radius: 15px;
+  z-index: 2;
+  overflow: hidden;
 }
