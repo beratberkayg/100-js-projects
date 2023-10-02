@@ -5,7 +5,8 @@
 }
 
 .container {
-  position: relative;
+  position: fixed;
+
   width: 100%;
   display: flex;
 }

@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <div
+      class="container"
+      data-0="transform:translateX(0%);"
+      data-1000="transform:translateX(-300%)"
+    >
       <section>
         <div class="content">
           <h2>Lorem, ipsum.</h2>
@@ -63,5 +67,9 @@
         </div>
       </section>
     </div>
+    <script type="text/javascript" src="skrollr.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script>
   </body>
 </html>
