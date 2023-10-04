@@ -20,4 +20,6 @@ function newYear() {
   document.getElementById("second").innerHTML = s;
 }
 
-newYear();
+setInterval(function () {
+  newYear();
+}, 1000);

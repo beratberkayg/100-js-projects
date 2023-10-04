@@ -7,7 +7,6 @@
 body {
   background: #000 url(bg.jpg);
   background-attachment: fixed;
-  background-blend-mode: hard-light;
 }
 
 .container {
